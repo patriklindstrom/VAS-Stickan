@@ -86,6 +86,10 @@
     <BundleResource Include="Resources\Default-568h@2x.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\VAS-Stickan.Shared\VAS-Stickan.Shared.csproj">
+      <Project>{30bae7c3-a2ef-4ee6-bb91-4d997418ef7f}</Project>
+      <Name>VAS-Stickan.Shared</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
